@@ -57,7 +57,7 @@ header nav ul li a:hover, .main-nav ul li a:hover, .main-nav ul li a.active {
 .banner {
     height: 45vh;
     padding: 0;
-    background-image: url('../Website/Images/c81d6773-ac5a-4052-918d-0028c9b85d9c.JPG'); /* Replace with the path to your background image */
+    background-image: url('Images/c81d6773-ac5a-4052-918d-0028c9b85d9c.JPG'); /* Replace with the path to your background image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
