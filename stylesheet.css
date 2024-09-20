@@ -669,7 +669,7 @@ footer p {
         color: #004c8c;
         text-decoration: none;
         font-weight: 500;
-        font-size: 0.5em;
+        font-size: 3px;
         transition: color 0.3s ease-in-out;
         
     }
