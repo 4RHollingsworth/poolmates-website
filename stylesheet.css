@@ -668,7 +668,6 @@ footer p {
     header nav ul li a, .main-nav ul li a {
         color: #004c8c;
         text-decoration: none;
-        font-weight: 250;
         transition: color 0.3s ease-in-out;
         
     }
