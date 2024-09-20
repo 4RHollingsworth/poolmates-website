@@ -661,16 +661,7 @@ footer p {
         margin: auto;
     }
 
-    header nav ul li, .main-nav ul li {
-        margin: 0 3px;
-    }
     
-    header nav ul li a, .main-nav ul li a {
-        color: #004c8c;
-        text-decoration: none;
-        transition: color 0.3s ease-in-out;
-        
-    }
 
     .banner {
         height: 45vh; /* Adjust this value as needed */
