@@ -672,18 +672,22 @@ footer p {
 
     /* Show the toggle button on mobile */
     .menu-toggle {
-        display: block;
+        display: block; /* Show menu button on mobile */
+        font-size: 2rem;
+        background: none;
+        border: none;
+        color: #004c8c;
+        cursor: pointer;
         position: absolute;
         right: 1rem;
         top: 1.5rem;
     }
 
-    /* Stack the nav links vertically */
     .main-nav ul {
-        display: none; /* Hidden by default */
+        display: none; /* Hide nav by default on mobile */
         flex-direction: column;
         position: absolute;
-        top: 100%; /* Below the header */
+        top: 100%;
         left: 0;
         width: 100%;
         background-color: rgb(254, 252, 255);
@@ -692,13 +696,16 @@ footer p {
         text-align: center;
     }
 
-    .main-nav ul li {
-        margin: 10px 0; /* More space between items */
+    .main-nav ul.show {
+        display: flex; /* Show nav when 'show' class is toggled */
     }
 
-    /* Show the menu when 'show' class is toggled */
-    .main-nav ul.show {
-        display: flex;
+    .main-nav ul li {
+        margin: 10px 0;
+    }
+
+    .main-nav {
+        display: none; /* Hide the main nav on mobile */
     }
 
     .banner {
