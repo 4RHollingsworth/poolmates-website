@@ -682,7 +682,6 @@ footer p {
 
     .banner img {
         transform: translateY(7%);/* Reducing the translate value to minimize spacing */
-        margin-left: 0.5rem; /* Optional: adding a small margin to separate the text from the logo */
     }
 
     .services-grid-services {
