@@ -661,6 +661,11 @@ footer p {
         margin: auto;
     }
 
+    header nav ul li a, .main-nav ul li a {
+        font: size 1.2em;
+        
+    }
+
     .banner {
         height: 45vh; /* Adjust this value as needed */
     }
