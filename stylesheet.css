@@ -40,6 +40,7 @@ header nav ul li a, .main-nav ul li a {
     font-weight: 500;
     font-size: 1.2em;
     transition: color 0.3s ease-in-out;
+    
 }
 
 header nav ul li a:hover, .main-nav ul li a:hover, .main-nav ul li a.active {
@@ -50,16 +51,6 @@ header nav ul li a:hover, .main-nav ul li a:hover, .main-nav ul li a.active {
 .logo img {
     max-height: 80px;
     vertical-align: middle;
-}
-
-/* Mobile Menu Button (hidden on larger screens) */
-.menu-toggle {
-    display: none; /* Hidden by default */
-    font-size: 2rem;
-    background: none;
-    border: none;
-    color: #004c8c;
-    cursor: pointer;
 }
 
 /* Banner Styles */
@@ -78,7 +69,7 @@ header nav ul li a:hover, .main-nav ul li a:hover, .main-nav ul li a.active {
 
 .banner-container {
     text-align: center;
-    padding: 0;
+    padding: 0%;
 }
 
 .banner h2 {
@@ -668,44 +659,6 @@ footer p {
     .logo img {
         display: block;
         margin: auto;
-    }
-
-    /* Show the toggle button on mobile */
-    .menu-toggle {
-        display: block; /* Show menu button on mobile */
-        font-size: 2rem;
-        background: none;
-        border: none;
-        color: #004c8c;
-        cursor: pointer;
-        position: absolute;
-        right: 1rem;
-        top: 1.5rem;
-    }
-
-    .main-nav ul {
-        display: none; /* Hide nav by default on mobile */
-        flex-direction: column;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background-color: rgb(254, 252, 255);
-        border-top: 2px solid #004c8c;
-        padding: 1rem 0;
-        text-align: center;
-    }
-
-    .main-nav ul.show {
-        display: flex; /* Show nav when 'show' class is toggled */
-    }
-
-    .main-nav ul li {
-        margin: 10px 0;
-    }
-
-    .main-nav {
-        display: none; /* Hide the main nav on mobile */
     }
 
     .banner {

@@ -59,14 +59,3 @@ document.addEventListener('DOMContentLoaded', () => {
     // Start the slideshow
     startSlideshow();
 });
-
-// Mobile Menu Toggle
-document.addEventListener('DOMContentLoaded', function() {
-    const menuToggle = document.querySelector('.menu-toggle');
-    const navMenu = document.querySelector('.main-nav ul');
-
-    // Toggle 'show' class when menu toggle button is clicked
-    menuToggle.addEventListener('click', function() {
-        navMenu.classList.toggle('show');
-    });
-});
