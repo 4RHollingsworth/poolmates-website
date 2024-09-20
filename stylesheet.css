@@ -69,6 +69,7 @@ header nav ul li a:hover, .main-nav ul li a:hover, .main-nav ul li a.active {
 
 .banner-container {
     text-align: center;
+    padding: 0;
 }
 
 .banner h2 {
