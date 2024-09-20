@@ -662,13 +662,13 @@ footer p {
     }
 
     header nav ul li, .main-nav ul li {
-        margin: 0 10px;
+        margin: 0 3px;
     }
     
     header nav ul li a, .main-nav ul li a {
         color: #004c8c;
         text-decoration: none;
-        font-weight: 500;
+        font-weight: 250;
         font-size: 3px;
         transition: color 0.3s ease-in-out;
         
