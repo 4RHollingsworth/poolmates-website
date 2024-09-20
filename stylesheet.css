@@ -660,6 +660,27 @@ footer p {
         display: block;
         margin: auto;
     }
+    
+    header nav ul, .main-nav ul {
+        padding: 0;
+        list-style: none;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    header nav ul li, .main-nav ul li {
+        margin: 0 10%;
+    }
+    
+    header nav ul li a, .main-nav ul li a {
+        color: #004c8c;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1em;
+        transition: color 0.3s ease-in-out;
+        
+    }
 
     .banner {
         height: 45vh; /* Adjust this value as needed */
