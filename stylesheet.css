@@ -707,6 +707,7 @@ footer p {
     .banner h2 {
         font-size: 2rem; /* Smaller font size for mobile */
         display: flex;
+        margin-bottom: 0;
         flex-direction: column; /* Stack the text and logo vertically */
         align-items: center;
     }
@@ -721,10 +722,6 @@ footer p {
     .banner p {
         font-size: 1.2rem;
         margin-bottom: 1rem; /* Adjust margin below the text */
-    }
-
-    .slideshow-container {
-        height: 30vh;
     }
 
     .services-grid-services {
