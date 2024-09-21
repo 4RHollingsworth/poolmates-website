@@ -672,12 +672,12 @@ footer p {
     /* Adjust font size for smaller screens */
     header nav ul li a, .main-nav ul li a {
         font-size: 1em;
-        padding: 0.5em;
+        padding: 0.2em;
     }
 
     /* Optional: Adjust padding for the header to make it more compact */
     header, .main-header {
-        padding: 0.5em 0;
+        padding: 0.2em 0;
     }
 
     /* On the third and following links, make them take up a third of the width */
