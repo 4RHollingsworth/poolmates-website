@@ -694,7 +694,6 @@ footer p {
 
     .banner {
         height: auto; /* Use auto to let content define the height */
-        padding: 2rem 0; /* Add some padding for spacing */
         background-size: cover; /* Ensure background scales appropriately */
     }
     
@@ -716,7 +715,6 @@ footer p {
     .banner img {
         max-width: 80%; /* Make the logo responsive */
         height: auto;
-        margin: 0.1rem 0; /* Add margin for space around the logo */
     }
 
     /* Adjust paragraph text */
