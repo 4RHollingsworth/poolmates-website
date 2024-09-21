@@ -716,12 +716,31 @@ footer p {
     .banner img {
         max-width: 80%; /* Make the logo responsive */
         height: auto;
+        transform: translateY(7%);
     }
 
     /* Adjust paragraph text */
     .banner p {
         font-size: 1.2rem;
         margin-bottom: 1rem; /* Adjust margin below the text */
+    }
+    
+    .slideshow-container {
+        height: 25vh; /* Reduce the height on smaller screens */
+    }
+
+    .slide {
+        height: 100%; /* Make sure slides take up the container's full height */
+    }
+
+    .slide img {
+        height: 100%; /* Ensure images still fill the entire slide container */
+        object-fit: cover; /* Maintain cover to avoid stretching */
+    }
+
+    /* Optionally, reduce caption font size for better fit on small screens */
+    .caption {
+        font-size: 1.5em; /* Smaller font size for captions on mobile */
     }
 
     .services-grid-services {
