@@ -652,10 +652,45 @@ footer p {
     filter: brightness(0.9);
 }
 
-.included-in-service ul {
-    text-align: left;
+#included-in-service ul, #customer-preperaion ul {
+    padding-left: 20px; /* Standard padding for lists */
+    text-align: left; /* Ensure the text is left-aligned */
+    list-style-position: inside; /* Optional: make bullet points inside the list */
 }
 
+#included-in-service li, #customer-preperaion li {
+    margin-bottom: 10px; /* Spacing between list items */
+    font-size: 1.1rem; /* Adjust font size if needed */
+}
+
+#before-after-gallery {
+    padding: 40px 0; /* Add padding for top and bottom */
+}
+
+.before-after-gallery-container {
+    text-align: center; /* Center the heading */
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for larger screens */
+    gap: 20px; /* Space between items */
+}
+
+.gallery-item {
+    text-align: center; /* Center the text under images */
+}
+
+.gallery-item img {
+    width: 100%; /* Ensure images fit their containers */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: add border radius for a softer look */
+}
+
+.gallery-item p {
+    margin-top: 10px; /* Space between image and caption */
+    font-weight: 500; /* Optional: make caption bold */
+}
 
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -810,4 +845,8 @@ footer p {
         height: fit-content;
         border: 0; /* Optional: Removes the iframe border */
     }    
+
+    .gallery-grid {
+        grid-template-columns: 1fr; /* Change to 1 column for smaller screens */
+    }
 }
