@@ -743,12 +743,26 @@ footer p {
         font-size: 1.5em; /* Smaller font size for captions on mobile */
     }
 
+    .retail-products-grid {
+        grid-template-columns: repeat(3, 1fr); /* Change to 3 columns */
+        gap: 15px; /* Optionally reduce the gap */
+    }
+
+    .retail-product-item img {
+        width: 15vh; /* Reduce image size */
+        height: 15vh; /* Maintain circular shape with smaller size */
+    }
+
+    .retail-product-item {
+        margin: 15px; /* Reduce margin for better spacing on smaller screens */
+    }
+
     .services-grid-services {
         grid-template-columns: 1fr;
     }
 
     .services-grid-retail {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .contact-form, .store-description, .services-text {
