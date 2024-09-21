@@ -655,6 +655,19 @@ footer p {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
+    /* Set the nav list to a 2x3 grid layout */
+    header nav ul, .main-nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Ensure each list item takes up 50% width for two on top and three on the bottom */
+    header nav ul li, .main-nav ul li {
+        width: 50%;
+        text-align: center;
+        margin: 5px 0;
+    }
 
     /* Adjust font size for smaller screens */
     header nav ul li a, .main-nav ul li a {
@@ -662,26 +675,16 @@ footer p {
         padding: 0.5em;
     }
 
-    /* Stack the links vertically */
-    header nav ul, .main-nav ul {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    /* Adjust margin and padding for a better fit */
-    header nav ul li, .main-nav ul li {
-        margin: 5px 0;
-    }
-
-    /* Flex-wrap to ensure links don't overflow horizontally */
-    header nav ul, .main-nav ul {
-        flex-wrap: wrap;
-    }
-
-    /* Optional: reduce the padding for header */
+    /* Optional: Adjust padding for the header to make it more compact */
     header, .main-header {
         padding: 0.5em 0;
+    }
+
+    /* On the third and following links, make them take up a third of the width */
+    header nav ul li:nth-child(3), .main-nav ul li:nth-child(3),
+    header nav ul li:nth-child(4), .main-nav ul li:nth-child(4),
+    header nav ul li:nth-child(5), .main-nav ul li:nth-child(5) {
+        width: 33.33%;
     }
 
     .logo img {
