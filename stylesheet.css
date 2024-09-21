@@ -54,7 +54,7 @@ header nav ul li a:hover, .main-nav ul li a:hover, .main-nav ul li a.active {
 }
 
 /* Banner Styles */
-.banner {
+.banner, .home-banner {
     height: 45vh;
     padding: 0;
     background-size: cover;
@@ -67,12 +67,12 @@ header nav ul li a:hover, .main-nav ul li a:hover, .main-nav ul li a.active {
     align-items: center;
 }
 
-.banner-container {
+.banner-container, .home-banner-container {
     text-align: center;
     padding: 0%;
 }
 
-.banner h2 {
+.banner h2, .home-banner h2 {
     color: #fff;
     font-size: 3.5em;
     margin-bottom: 1em;
@@ -83,7 +83,7 @@ header nav ul li a:hover, .main-nav ul li a:hover, .main-nav ul li a.active {
     -ms-animation: fadeIn 1.5s;
 }
 
-.banner p {
+.banner p, .home-banner p {
     color: #fff;
     font-size: 1.6em;
     line-height: 1.6;
@@ -95,7 +95,7 @@ header nav ul li a:hover, .main-nav ul li a:hover, .main-nav ul li a.active {
     -ms-animation: fadeIn 3.5s;
 }
 
-.banner img {
+.banner img, .home-banner img {
     transform: translateY(53%);
 }
 
