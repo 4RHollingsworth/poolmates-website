@@ -361,7 +361,7 @@ section {
 /* Retail Product Styling */
 .retail-products-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     max-width: 1200px;
     margin: auto;
@@ -672,7 +672,7 @@ footer p {
     /* Adjust font size for smaller screens */
     header nav ul li a, .main-nav ul li a {
         font-size: 1em;
-        padding: 0.2em;
+        padding: 2px;
     }
 
     /* Optional: Adjust padding for the header to make it more compact */
