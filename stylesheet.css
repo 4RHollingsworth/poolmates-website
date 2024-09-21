@@ -652,13 +652,13 @@ footer p {
     filter: brightness(0.9);
 }
 
-#included-in-service ul, #customer-preperaion ul {
+#included-in-service ul, #customer-preparation ul {
     padding-left: 20px; /* Standard padding for lists */
     text-align: left; /* Ensure the text is left-aligned */
     list-style-position: inside; /* Optional: make bullet points inside the list */
 }
 
-#included-in-service li, #customer-preperaion li {
+#included-in-service li, #customer-preparation li {
     margin-bottom: 10px; /* Spacing between list items */
     font-size: 1.1rem; /* Adjust font size if needed */
 }
