@@ -664,7 +664,7 @@ footer p {
 
     /* Ensure each list item takes up 50% width for two on top and three on the bottom */
     header nav ul li, .main-nav ul li {
-        width: 50%;
+        width: 30%;
         text-align: center;
         margin: 5px 0;
     }
@@ -712,6 +712,7 @@ footer p {
     }
 
     .banner img {
+        max-width: 50rem;
         transform: translateY(7%);/* Reducing the translate value to minimize spacing */
         margin-left: 0.1rem; /* Optional: adding a small margin to separate the text from the logo */
     }
