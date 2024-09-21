@@ -716,6 +716,7 @@ footer p {
     .banner img {
         max-width: 80%; /* Make the logo responsive */
         height: auto;
+        transform: translateY(-2%);
     }
 
     /* Adjust paragraph text */
