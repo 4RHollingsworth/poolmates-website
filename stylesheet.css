@@ -698,13 +698,13 @@ footer p {
     }
     
     /* Adjust the padding inside the banner container */
-    .banner-container {
+    .home-banner-container {
         padding: 0 1rem;
         text-align: center; /* Center align the content for mobile */
     }
 
     /* Adjust the font size of the heading */
-    .banner h2 {
+    .home-banner h2 {
         font-size: 2rem; /* Smaller font size for mobile */
         display: flex;
         margin-bottom: 0;
@@ -713,14 +713,14 @@ footer p {
     }
 
     /* Adjust the logo */
-    .banner img {
+    .home-banner img {
         max-width: 80%; /* Make the logo responsive */
         height: auto;
         transform: translateY(-2%);
     }
 
     /* Adjust paragraph text */
-    .banner p {
+    .home-banner p {
         font-size: 1.2rem;
         margin-bottom: 1rem; /* Adjust margin below the text */
     }
