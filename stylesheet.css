@@ -693,28 +693,36 @@ footer p {
     }
 
     .banner {
-        height: 45vh; /* Adjust this value as needed */
+        height: auto; /* Use auto to let content define the height */
+        padding: 2rem 0; /* Add some padding for spacing */
+        background-size: cover; /* Ensure background scales appropriately */
     }
     
+    /* Adjust the padding inside the banner container */
     .banner-container {
-        padding: 0 1rem; /* Reduces padding for smaller screens */
+        padding: 0 1rem;
+        text-align: center; /* Center align the content for mobile */
     }
-    
+
+    /* Adjust the font size of the heading */
     .banner h2 {
-        font-size: 3rem; /* Slightly smaller font size */
-        margin-bottom: 0; /* Reducing the margin between the heading and the paragraph */
+        font-size: 2rem; /* Smaller font size for mobile */
+        display: flex;
+        flex-direction: column; /* Stack the text and logo vertically */
+        align-items: center;
     }
 
+    /* Adjust the logo */
+    .banner h2 img {
+        max-width: 80%; /* Make the logo responsive */
+        height: auto;
+        margin: 1rem 0; /* Add margin for space around the logo */
+    }
+
+    /* Adjust paragraph text */
     .banner p {
-        font-size: 1.2rem; /* Adjust font size */
-        transform: translateY(-70%);
-        margin-bottom: 0.5rem; /* Reducing the space between text and logo */
-    }
-
-    .banner img {
-        max-width: 50rem;
-        transform: translateY(7%);/* Reducing the translate value to minimize spacing */
-        margin-left: 0.1rem; /* Optional: adding a small margin to separate the text from the logo */
+        font-size: 1.2rem;
+        margin-bottom: 1rem; /* Adjust margin below the text */
     }
 
     .services-grid-services {
