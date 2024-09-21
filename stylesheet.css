@@ -744,7 +744,7 @@ footer p {
     }
 
     .retail-products-grid {
-        grid-template-columns: repeat(3, 1fr); /* Change to 3 columns */
+        grid-template-columns: repeat(2, 1fr); /* Change to 3 columns */
         gap: 15px; /* Optionally reduce the gap */
     }
 
