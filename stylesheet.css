@@ -652,6 +652,10 @@ footer p {
     filter: brightness(0.9);
 }
 
+.included-in-service ul {
+    text-align: left;
+}
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {
