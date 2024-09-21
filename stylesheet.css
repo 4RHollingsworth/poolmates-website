@@ -723,6 +723,10 @@ footer p {
         margin-bottom: 1rem; /* Adjust margin below the text */
     }
 
+    .slideshow-container {
+        height: 30vh;
+    }
+
     .services-grid-services {
         grid-template-columns: 1fr;
     }
