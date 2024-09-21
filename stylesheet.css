@@ -713,7 +713,7 @@ footer p {
     }
 
     /* Adjust the logo */
-    .banner h2 img {
+    .banner img {
         max-width: 80%; /* Make the logo responsive */
         height: auto;
         margin: 0.1rem 0; /* Add margin for space around the logo */
