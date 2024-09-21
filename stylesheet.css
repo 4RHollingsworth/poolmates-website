@@ -744,7 +744,7 @@ footer p {
     }
 
     /* Adjust the font size of the heading */
-    .home-banner h2 {
+    .banner h2, .home-banner h2 {
         font-size: 2rem; /* Smaller font size for mobile */
         display: flex;
         margin-bottom: 0;
@@ -760,7 +760,7 @@ footer p {
     }
 
     /* Adjust paragraph text */
-    .home-banner p {
+    .banner p, .home-banner p {
         font-size: 1.2rem;
         margin-bottom: 1rem; /* Adjust margin below the text */
     }
