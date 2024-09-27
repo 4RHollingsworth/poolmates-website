@@ -89,19 +89,13 @@ header nav ul li a:hover, .main-nav ul li a:hover, .main-nav ul li a.active {
     line-height: 1.6;
     margin-bottom: 1em;
     animation: fadeIn 3.5s;
+    background: rgba(0, 76, 140, 0.8);
+    border-radius: 10px;
+    box-sizing: border-box;
     -webkit-animation: fadeIn 3.5s;
     -moz-animation: fadeIn 3.5s;
     -o-animation: fadeIn 3.5s;
     -ms-animation: fadeIn 3.5s;
-}
-
-.home-banner p {
-    background: rgba(0, 76, 140, 0.8);
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    width: 90%;
-    box-sizing: border-box;
 }
 
 .banner img, .home-banner img {
