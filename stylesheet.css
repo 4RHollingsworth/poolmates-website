@@ -95,6 +95,16 @@ header nav ul li a:hover, .main-nav ul li a:hover, .main-nav ul li a.active {
     -ms-animation: fadeIn 3.5s;
 }
 
+.home-banner p {
+    background: rgba(0, 76, 140, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    box-sizing: border-box;
+    z-index: 20;
+}
+
 .banner img, .home-banner img {
     transform: translateY(53%);
 }
@@ -282,7 +292,7 @@ section {
     opacity: 0;
 }
 
-.service-item-services .description, .home-banner p {
+.service-item-services .description {
     position: absolute;
     top: 50%;
     left: 50%;
