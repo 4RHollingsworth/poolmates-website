@@ -849,4 +849,10 @@ footer p {
         top: 0;
         left: 0;
         height: fit-content;
-        bo
+        border: 0; /* Optional: Removes the iframe border */
+    }    
+
+    .gallery-grid {
+        grid-template-columns: 1fr; /* Change to 1 column for smaller screens */
+    }
+}
