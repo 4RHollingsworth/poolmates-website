@@ -683,45 +683,116 @@ footer p {
     filter: brightness(0.9);
 }
 
-#included-in-service ul, #customer-preparation ul {
-    padding-left: 20px; /* Standard padding for lists */
-    text-align: left; /* Ensure the text is left-aligned */
-    list-style-position: inside; /* Optional: make bullet points inside the list */
+/* Styling for Service Intro Section */
+#service-intro h2 {
+    font-size: 32px;
+    color: #005b96;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
-#included-in-service li, #customer-preparation li {
-    margin-bottom: 10px; /* Spacing between list items */
-    font-size: 1.1rem; /* Adjust font size if needed */
+#service-intro p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
+/* Styling for Included in Service Section */
+#included-in-service {
+    background-color: #e0f7fa; /* Light blue background */
+}
+
+#included-in-service h2 {
+    font-size: 28px;
+    color: #00796b;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#included-in-service p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#included-in-service ul {
+    list-style: none;
+    padding-left: 0; /* Remove default padding */
+}
+
+#included-in-service li {
+    font-size: 18px;
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 5px solid #00796b; /* Highlight with a color bar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease; /* Animate on hover */
+}
+
+#included-in-service li:hover {
+    transform: translateX(10px); /* Shift the item slightly on hover */
+}
+
+/* Customer Preparation Section */
+#customer-preparation {
+    background-color: #fce4ec; /* Light pink background for contrast */
+}
+
+#customer-preparation h2 {
+    font-size: 28px;
+    color: #d81b60;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#customer-preparation p {
+    font-size: 18px;
+    color: #333;
+}
+
+#customer-preparation ul li {
+    font-size: 18px;
+    background-color: #fff3f6;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #d81b60;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Before & After Gallery Section */
 #before-after-gallery {
-    padding: 40px 0; /* Add padding for top and bottom */
+    background-color: #f0f8ff;
+    padding: 60px 0;
 }
 
-.before-after-gallery-container {
-    text-align: center; /* Center the heading */
+.before-after-gallery-container h2 {
+    font-size: 30px;
+    color: #005b96;
+    margin-bottom: 40px;
+    font-weight: bold;
 }
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for larger screens */
-    gap: 20px; /* Space between items */
-}
-
-.gallery-item {
-    text-align: center; /* Center the text under images */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
 }
 
 .gallery-item img {
-    width: 80%; /* Ensure images fit their containers */
-    height: auto; /* Maintain aspect ratio */
-    max-height: 12vh;
-    border-radius: 5px; /* Optional: add border radius for a softer look */
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
 
 .gallery-item p {
-    margin-top: 10px; /* Space between image and caption */
-    font-weight: 500; /* Optional: make caption bold */
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 /* Responsive Styles */
