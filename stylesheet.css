@@ -1,3 +1,11 @@
+/* Font Styles*/
+@font-face {
+    font-family: 'Fredoka One';
+    src: url('Fonts/FredokaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Base Styles */
 body {
     font-family: 'Roboto', sans-serif;
@@ -17,6 +25,7 @@ body {
 /* Header Styles */
 header, .main-header {
     background-color: rgb(254, 252, 255);
+    font-family: 'Fredoka';
     color: #004c8c;
     padding: 1em 0;
     border-bottom: 2px solid #004c8c;
@@ -74,6 +83,7 @@ header nav ul li a:hover, .main-nav ul li a:hover, .main-nav ul li a.active {
 
 .banner h2, .home-banner h2 {
     color: #fff;
+    font-family:'Fredoka One';
     font-size: 3.5em;
     margin-bottom: 1em;
     animation: fadeIn 1.5s;
@@ -143,7 +153,6 @@ section {
     background-color: #e9f4f8;
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     max-width: 90%;
     margin: 20px auto;
     font-family: 'Open Sans', sans-serif;
@@ -180,7 +189,6 @@ section {
     max-width: 48%;
     padding: 10px;
     background: #e9f4f8;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     border-radius: 10px;
     text-align: center;
     margin-bottom: 15px;
@@ -355,7 +363,6 @@ section {
     overflow: hidden;
     text-align: center;
     max-height:fit-content;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 .service-item-retail img {
@@ -407,7 +414,6 @@ section {
 .retail-product-item {
     text-align: center;
     margin: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 .retail-product-item img {
@@ -426,12 +432,12 @@ section {
     text-align: center;
 }
 
-.contact-info .container {
+/*.contact-info .container {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
-}
+}*/
 
 .contact-location {
     flex: 1;
