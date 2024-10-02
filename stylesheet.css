@@ -901,6 +901,15 @@ footer p {
         font-size: 1.2rem;
         margin-bottom: 1rem; /* Adjust margin below the text */
     }
+
+    .homepage-intro-container {
+        padding: 20px; /* Reduce padding */
+        margin: 10px;  /* Adjust margins for smaller screens */
+    }
+    .homepage-intro-container p {
+        font-size: 16px; /* Decrease font size */
+        line-height: 1.4; /* Adjust line height for smaller screens */
+    }
     
     .slideshow-container {
         height: 25vh; /* Reduce the height on smaller screens */
