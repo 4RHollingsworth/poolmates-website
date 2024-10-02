@@ -432,14 +432,11 @@ section {
     text-align: center;
 }
 
-/*.contact-info .container {
+.contact-location {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
-}*/
-
-.contact-location {
     flex: 1;
     max-width: 48%;
     padding: 20px;
