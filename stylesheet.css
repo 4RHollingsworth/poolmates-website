@@ -726,7 +726,7 @@ footer p {
 #included-in-service li {
     font-size: 18px;
     background-color: #ffffff;
-    margin: 10px 0;
+    margin: 0;
     padding: 15px;
     border-left: 5px solid #00796b; /* Highlight with a color bar */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
@@ -761,6 +761,10 @@ footer p {
     padding: 10px;
     border-left: 5px solid #d81b60;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#customer-preperation li:hover {
+    transform: translateX(10px); /* Shift the item slightly on hover */
 }
 
 /* Before & After Gallery Section */
