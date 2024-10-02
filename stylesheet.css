@@ -702,7 +702,7 @@ footer p {
 
 /* Styling for Included in Service Section */
 #included-in-service-container {
-    background-color: #e0f7fa; /* Light blue background */
+    background: #e0f7fa; /* Light blue background */
 }
 
 #included-in-service h2 {
@@ -744,7 +744,7 @@ footer p {
 
 /* Customer Preparation Section */
 #customer-preparation-container{
-    background-color: #fce4ec; /* Light pink background for contrast */
+    background: #fce4ec; /* Light pink background for contrast */
 }
 
 #customer-preparation h2 {
