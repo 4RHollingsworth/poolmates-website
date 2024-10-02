@@ -136,6 +136,33 @@ section {
     margin: 20px 0;
 }
 
+.homepage-intro-container {
+    background-color: #f0f8ff; /* Light blue background for a soft pool-like feel */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+.homepage-intro-container p {
+    font-size: 18px;
+    line-height: 1.6; /* Enhances readability */
+    margin-bottom: 20px; /* Space between paragraphs */
+}
+
+.homepage-intro-container p:first-child {
+    font-size: 22px;
+    font-weight: bold; /* Make the first paragraph stand out */
+    color: #005b96; /* Pool-like blue color for emphasis */
+}
+
+.homepage-intro-container p:last-child {
+    font-style: italic; /* Add a friendly touch to the last paragraph */
+}
+
 /* Store Hours Section */
 .store-hours-container {
     display: flex;
