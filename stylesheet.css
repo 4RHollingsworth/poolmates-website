@@ -151,9 +151,8 @@ section {
 
 .homepage-intro-container {
     background-color: #e9f4f8;
-    padding: 3%;
+    padding: 1rem;
     border-radius: 10px;
-    margin: 12px auto;
     font-family: 'Open Sans', sans-serif;
     color: #333;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
@@ -903,7 +902,7 @@ footer p {
     }
 
     .homepage-intro-container {
-        padding: 20px; /* Reduce padding */
+        
         margin: 10px;  /* Adjust margins for smaller screens */
     }
     .homepage-intro-container p {
