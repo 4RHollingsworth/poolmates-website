@@ -722,6 +722,8 @@ footer p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    list-style-type: none; /* Remove bullet points */
+    padding-left: 0; /* Remove default padding */
 }
 
 #included-in-service li {
@@ -757,13 +759,24 @@ footer p {
     color: #333;
 }
 
-#customer-preparation ul li {
+#customer-preparation ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none; /* Remove bullet points */
+    padding-left: 0; /* Remove default padding */
+}
+
+#customer-preparation li {
+    width: 80%; /* Reduce the width to fit nicely within the container */
+    max-width: 600px; /* Limit the maximum width for larger screens */
     font-size: 18px;
-    background-color: #fff3f6;
+    background-color: #ffffff;
     margin: 10px 0;
-    padding: 10px;
-    border-left: 5px solid #d81b60;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-left: 5px solid #00796b; /* Highlight with a color bar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease;
 }
 
 #customer-preperation li:hover {
