@@ -705,20 +705,20 @@ footer p {
     background: #e0f7fa; /* Light blue background */
 }
 
-#included-in-service h2 {
+#included-in-service-container h2 {
     font-size: 28px;
     color: #00796b;
     margin-bottom: 20px;
     font-weight: bold;
 }
 
-#included-in-service p {
+#included-in-service-container p {
     font-size: 18px;
     margin-bottom: 20px;
     color: #333;
 }
 
-#included-in-service ul {
+#included-in-service-container ul {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -726,7 +726,7 @@ footer p {
     padding-left: 0; /* Remove default padding */
 }
 
-#included-in-service li {
+#included-in-service-container li {
     width: 80%; /* Reduce the width to fit nicely within the container */
     max-width: 600px; /* Limit the maximum width for larger screens */
     font-size: 18px;
@@ -738,28 +738,28 @@ footer p {
     transition: transform 0.3s ease;
 }
 
-#included-in-service li:hover {
+#included-in-service-container li:hover {
     transform: translateX(10px); /* Shift the item slightly on hover */
 }
 
 /* Customer Preparation Section */
-#customer-preparation-container{
+#customer-preparation-container {
     background: #fce4ec; /* Light pink background for contrast */
 }
 
-#customer-preparation h2 {
+#customer-preparation-container h2 {
     font-size: 28px;
     color: #d81b60;
     margin-bottom: 20px;
     font-weight: bold;
 }
 
-#customer-preparation p {
+#customer-preparation-container p {
     font-size: 18px;
     color: #333;
 }
 
-#customer-preparation ul {
+#customer-preparation-container ul {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -767,7 +767,7 @@ footer p {
     padding-left: 0; /* Remove default padding */
 }
 
-#customer-preparation li {
+#customer-preparation-container li {
     width: 80%; /* Reduce the width to fit nicely within the container */
     max-width: 600px; /* Limit the maximum width for larger screens */
     font-size: 18px;
@@ -779,12 +779,12 @@ footer p {
     transition: transform 0.3s ease;
 }
 
-#customer-preperation li:hover {
+#customer-preperation-container li:hover {
     transform: translateX(10px); /* Shift the item slightly on hover */
 }
 
 /* Before & After Gallery Section */
-#before-after-gallery {
+#before-after-gallery-container {
     background-color: #f0f8ff;
     padding: 60px 0;
 }
