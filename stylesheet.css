@@ -684,7 +684,7 @@ footer p {
 }
 
 /* Styling for Service Intro Section */
-#service-intro h2 {
+.service-intro h2 {
     font-size: 32px;
     color: #005b96;
     margin-bottom: 20px;
@@ -692,7 +692,7 @@ footer p {
     text-transform: uppercase;
 }
 
-#service-intro p {
+.service-intro p {
     font-size: 18px;
     line-height: 1.8;
     color: #333;
@@ -701,26 +701,26 @@ footer p {
 }
 
 /* Styling for Included in Service Section */
-#included-in-service-container {
+.included-in-service-container {
     background: #e0f7fa; /* Light blue background */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
 
-#included-in-service-container h2 {
+.included-in-service-container h2 {
     font-size: 28px;
     color: #00796b;
     margin-bottom: 20px;
     font-weight: bold;
 }
 
-#included-in-service-container p {
+.included-in-service-container p {
     font-size: 18px;
     margin-bottom: 20px;
     color: #333;
 }
 
-#included-in-service-container ul {
+.included-in-service-container ul {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -728,7 +728,7 @@ footer p {
     padding-left: 0; /* Remove default padding */
 }
 
-#included-in-service-container li {
+.included-in-service-container li {
     width: 80%; /* Reduce the width to fit nicely within the container */
     max-width: 600px; /* Limit the maximum width for larger screens */
     font-size: 18px;
@@ -740,30 +740,30 @@ footer p {
     transition: transform 0.3s ease;
 }
 
-#included-in-service-container li:hover {
+.included-in-service-container li:hover {
     transform: translateX(10px); /* Shift the item slightly on hover */
 }
 
 /* Customer Preparation Section */
-#customer-preparation-container {
+.customer-preparation-container {
     background: #fce4ec; /* Light pink background for contrast */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
 
-#customer-preparation-container h2 {
+.customer-preparation-container h2 {
     font-size: 28px;
     color: #d81b60;
     margin-bottom: 20px;
     font-weight: bold;
 }
 
-#customer-preparation-container p {
+.customer-preparation-container p {
     font-size: 18px;
     color: #333;
 }
 
-#customer-preparation-container ul {
+.customer-preparation-container ul {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -771,7 +771,7 @@ footer p {
     padding-left: 0; /* Remove default padding */
 }
 
-#customer-preparation-container li {
+.customer-preparation-container li {
     width: 80%; /* Reduce the width to fit nicely within the container */
     max-width: 600px; /* Limit the maximum width for larger screens */
     font-size: 18px;
@@ -783,7 +783,7 @@ footer p {
     transition: transform 0.3s ease;
 }
 
-#customer-preperation-container li:hover {
+.customer-preperation-container li:hover {
     transform: translateX(10px); /* Shift the item slightly on hover */
 }
 
