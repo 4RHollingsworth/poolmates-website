@@ -703,6 +703,8 @@ footer p {
 /* Styling for Included in Service Section */
 #included-in-service-container {
     background: #e0f7fa; /* Light blue background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
 
 #included-in-service-container h2 {
@@ -745,6 +747,8 @@ footer p {
 /* Customer Preparation Section */
 #customer-preparation-container {
     background: #fce4ec; /* Light pink background for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
 
 #customer-preparation-container h2 {
