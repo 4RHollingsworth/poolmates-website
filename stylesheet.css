@@ -868,7 +868,7 @@ footer p {
         margin: auto;
     }
 
-    .banner, .home-banner {
+    .home-banner {
         height: auto; /* Use auto to let content define the height */
         background-size: cover; /* Ensure background scales appropriately */
     }
