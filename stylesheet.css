@@ -63,7 +63,7 @@ header nav ul li a:hover, .main-nav ul li a:hover, .main-nav ul li a.active {
 }
 
 /* Banner Styles */
-.banner, .home-banner {
+.banner {
     height: 45vh;
     padding: 0;
     background-size: cover;
@@ -74,6 +74,10 @@ header nav ul li a:hover, .main-nav ul li a:hover, .main-nav ul li a.active {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.home-banner {
+    height: auto;
 }
 
 .banner-container, .home-banner-container {
