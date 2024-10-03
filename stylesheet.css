@@ -328,6 +328,7 @@ section {
 
 .service-item-services:hover .title {
     opacity: 0;
+    font-family: 'Fredoka One';
 }
 
 .service-item-services .description {
