@@ -437,6 +437,12 @@ section {
     text-align: center;
 }
 
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .contact-location {
     display: flex;
     justify-content: space-between;
