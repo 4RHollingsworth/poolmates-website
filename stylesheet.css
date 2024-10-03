@@ -155,7 +155,7 @@ section {
 
 .homepage-intro-container {
     background-color: #e9f4f8;
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 10px;
     font-family: 'Open Sans', sans-serif;
     color: #333;
@@ -871,8 +871,14 @@ footer p {
         display: block;
         margin: auto;
     }
+    
+    .banner {
+        height: 30vh;
+    }
 
-    .banner, .home-banner {
+
+
+    .home-banner {
         height: auto; /* Use auto to let content define the height */
         background-size: cover; /* Ensure background scales appropriately */
     }
