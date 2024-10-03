@@ -25,7 +25,6 @@ body {
 /* Header Styles */
 header, .main-header {
     background-color: rgb(254, 252, 255);
-    font-family: 'Fredoka';
     color: #004c8c;
     padding: 1em 0;
     border-bottom: 2px solid #004c8c;
@@ -64,7 +63,7 @@ header nav ul li a:hover, .main-nav ul li a:hover, .main-nav ul li a.active {
 
 /* Banner Styles */
 .banner {
-    height: 45vh;
+    height: 35vh;
     padding: 3%;
     background-size: cover;
     background-position: center;
