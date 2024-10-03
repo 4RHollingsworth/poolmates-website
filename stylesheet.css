@@ -78,6 +78,9 @@ header nav ul li a:hover, .main-nav ul li a:hover, .main-nav ul li a.active {
 
 .home-banner {
     height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .banner-container, .home-banner-container {
