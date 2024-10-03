@@ -867,6 +867,12 @@ footer p {
         display: block;
         margin: auto;
     }
+    
+    .banner {
+        height: 30vh;
+    }
+
+
 
     .home-banner {
         height: auto; /* Use auto to let content define the height */
