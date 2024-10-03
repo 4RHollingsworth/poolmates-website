@@ -65,7 +65,7 @@ header nav ul li a:hover, .main-nav ul li a:hover, .main-nav ul li a.active {
 /* Banner Styles */
 .banner {
     height: 45vh;
-    padding: 0;
+    padding: 3%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
