@@ -445,23 +445,21 @@ section {
 
 .contact-location {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     gap: 20px;
-    flex-wrap: wrap;
     flex: 1;
     max-width: 48%;
     padding: 20px;
     background: #e9f4f8;
     border-radius: 10px;
-    text-align: center;
     margin-bottom: 20px;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .contact-location h2, .contact-location h3 {
     color: #004c8c;
     margin-bottom: 15px;
-    text-align: center;
 }
 
 /* Form Box Styles */
@@ -478,8 +476,7 @@ section {
 .contact-form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    margin-top: 15px;
+    gap: 10px;
 }
 
 .contact-form input, .contact-form textarea {
