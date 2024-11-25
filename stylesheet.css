@@ -63,7 +63,7 @@ header nav ul li a:hover, .main-nav ul li a:hover, .main-nav ul li a.active {
 
 /* Banner Styles */
 .banner {
-    height: 35vh;
+    height: 30vh;
     padding: 3%;
     background-size: cover;
     background-position: center;
@@ -311,6 +311,7 @@ section {
 }
 
 .service-item-services .title {
+    font-family: 'Fredoka One';
     position: absolute;
     bottom: 5px;
     left: 50%;
@@ -328,7 +329,6 @@ section {
 
 .service-item-services:hover .title {
     opacity: 0;
-    font-family: 'Fredoka One';
 }
 
 .service-item-services .description {
@@ -468,7 +468,7 @@ section {
     padding: 20px 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    max-width: 100%;
+    max-width: fit-content;
     margin: 0 auto;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
@@ -510,7 +510,7 @@ section {
 .locations-box {
     flex: 1;
     max-width: 48%;
-    padding: 1rem;
+    padding: 0.2rem;
     background: #e9f4f8;
     border-radius: 10px;
     text-align: center;
