@@ -172,6 +172,7 @@ section {
 
 .homepage-intro-container p:first-child {
     font-size: 22px;
+    font-family: 'Fredoka One';
     font-weight: bold; /* Make the first paragraph stand out */
     color: #005b96; /* Pool-like blue color for emphasis */
 }
