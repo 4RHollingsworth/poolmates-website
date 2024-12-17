@@ -936,21 +936,23 @@ footer p {
     /* Set the nav list to a 2x3 grid layout */
     header nav ul, .main-nav ul {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-wrap: nowrap; /* Ensures all items stay in a single row */
+        justify-content: center; /* Centers the items horizontally */
+        padding: 0; /* Remove any default padding */
+        margin: 0; /* Remove any default margin */
     }
 
     /* Ensure each list item takes up 50% width for two on top and three on the bottom */
     header nav ul li, .main-nav ul li {
-        width: 30%;
+        width: 20%; /* Each item takes up 20% of the container */
         text-align: center;
         margin: 5px 0;
     }
 
     /* Adjust font size for smaller screens */
     header nav ul li a, .main-nav ul li a {
-        font-size: 1em;
-        padding: 2px;
+        font-size: 0.9em; /* Slightly larger font size for readability */
+        padding: 5px;
     }
 
     /* Optional: Adjust padding for the header to make it more compact */
