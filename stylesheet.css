@@ -484,7 +484,8 @@ section {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1em;
-    max-width: 95%;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 .contact-form textarea {
