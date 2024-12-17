@@ -767,6 +767,18 @@ footer p {
     transform: translateX(10px); /* Shift the item slightly on hover */
 }
 
+/* Style for child <ul> inside <li> */
+.preliminary-steps-container li > ul {
+    width: 66.67%; /* Set width to 2/3 of the parent list item */
+    margin-left: 20px; /* Add margin to create indentation effect */
+    padding-left: 20px; /* Add padding for proper alignment */
+    list-style-type: none; /* Remove bullet points for child list */
+}
+
+.preliminary-steps-container li > ul li {
+    width: 100%; /* Ensure child list items take up full width of their parent container */
+    font-size: 16px; /* Optional: Smaller font size for child list items */
+}
 
 /* Styling for Included in Service Section */
 .included-in-service-container {
