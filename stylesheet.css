@@ -447,10 +447,10 @@ section {
 .contact-location {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     flex: 1;
     max-width: 48%;
-    padding: 20px;
+    padding: 10px;
     background: #e9f4f8;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -511,7 +511,7 @@ section {
 .locations-box {
     flex: 1;
     max-width: 48%;
-    padding: 0.2rem;
+    padding: 10px;
     background: #e9f4f8;
     border-radius: 10px;
     text-align: center;
@@ -1050,6 +1050,11 @@ footer p {
 
     .services-grid-services {
         grid-template-columns: 1fr;
+    }
+
+    .service-item-services .title
+    {
+        font-size: 1.5em;
     }
 
     .services-grid-retail {
