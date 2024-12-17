@@ -269,6 +269,7 @@ section {
     left: 16px;
     padding: 8px;
     border-radius: 5px;
+    font-family: 'Fredoka One';
 }
 
 /* Map Styling */
@@ -468,9 +469,8 @@ section {
     background: #f9f9f9;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    width: 100%;
+    width: 80%;
     overflow: hidden;
     margin-top: 10px;
 }
