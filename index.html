@@ -3,66 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image" href="Images/PoolMatesWaves.ico">
+    <link rel="icon" type="image" href="Images/Waves.ico">
     <title>Pool Mates - Home</title>
     <link rel="stylesheet" href="stylesheet.css?v=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header class="main-header">
         <div class="container navigation-container">
-            <div class="logo">
-                <a href="index.html">
-                <img src="Images/PoolMatesLogo.svg" alt="Pool Mates Logo"></a>
+          <div class="left-cluster">
+
+          </div>
+          <!-- Hamburger Menu Button (Mobile Only) -->
+          <button class="hamburger" onclick="toggleMobileMenu()">
+            <i class="fa fa-bars"></i>
+          </button>
+          
+          <!-- Logo -->
+          <div class="header-logo">
+            <a href="index.html">
+              <img src="Images/PoolMatesLogo.svg" alt="Pool Mates Logo" style="max-width: 250px;">
+            </a>
+          </div>
+          
+          <!-- Navbar Menu (Toggled) -->
+          <div class="nav-left" id="mobile-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+        
+            <div class="dropdown">
+              <button class="dropbtn">Services <i class="fa fa-caret-down"></i></button>
+              <div class="dropdown-content">
+                <a href="services.html" style="font-weight: bold;">All Services</a>
+                <br>
+                <a href="closings.html">Closings</a>
+                <a href="equipment-repair.html">Equipment Repair</a>
+                <a href="gas-work.html">Gas Work</a>                  
+                <a href="leak-detection.html">Leak Detection</a>
+                <a href="liners.html">Liners</a>
+                <a href="openings.html">Openings</a>
+                <a href="pool-checks.html">Pool Checks</a>
+                <a href="safety-covers.html">Safety Covers</a>
+                <a href="vacuum-calls.html">Vacuum Calls</a>
+                <a href="weekly-service.html">Weekly Service</a>
+              </div>
             </div>
-            <nav class="main-nav">
-                <ul class="nav-links">
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="retail.html">Retail</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="faqs.html">FAQs</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
+        
+            <a href="retail.html">Retail</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+            <a href="faqs.html">FAQ</a>
+          </div>
+          <!-- Social Media Menu -->
+            <div class="nav-right">
+                <a href="sms:+14162820999" class="cta-text-button">Text Us</a>
+
+                <a href="https://www.instagram.com/pool_mates" target="_blank" class="social-icon" aria-label="Instagram">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/yourhandle" target="_blank" class="social-icon" aria-label="Facebook">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://www.twitter.com/yourhandle" target="_blank" class="social-icon" aria-label="Twitter">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </div>
         </div>
     </header>
 
-    <section id="home-banner" class="home-banner" style="background-image: url('Images/c81d6773-ac5a-4052-918d-0028c9b85d9c.JPG');">
+    <div id="home-banner" class="home-banner" style="background-image: url('Images/c81d6773-ac5a-4052-918d-0028c9b85d9c.JPG');">
         <div class="container home-banner-container">
             <h2>Welcome to <img src="Images/PoolMatesLogo.svg" alt="Pool Mates Logo"></h2>
-            <p>
-                Serving the communities of<br>Scarborough, The Beaches, East York, North York, Pickering and Ajax since 2009.
-            </p>
         </div>
-    </section>
+    </div>
 
-    <section id="homepage-intro" class="homepage-intro">
+    <div id="homepage-intro" class="homepage-intro">
         <div class="container homepage-intro-container">
-            <p>OUR GOAL IS TO HAVE YOU SPEND MORE TIME IN YOUR POOL,<br>AND LESS TIME WORRYING ABOUT IT!</p>
-            <p>We offer quality, professional advice, and our goal is to give the best information and products to help keep your pool clear, blue and running smoothly all summer long.</p> 
-            <p>Pool Mates can also help alleviate the demands of pool ownership. Our service team is fast, friendly, and efficient so you never miss important maintenance.</p>
-            <p>We look forward to welcoming you into one of our stores or service in your own backyard. Text, call or pop in during business hours to speak with us!</p>
+            <p>PROUDLY SERVING THE GTA SINCE 2009!</p>
         </div>
-    </section>
+    </div>
 
-    <section id="store-hours" class="store-hours">
-        <h1 style="font-family:'Fredoka One';">Store Hours</h1>
-        <div class="container store-hours-container">  
-            <div class="store-hours-box">
-                <h2>Kingston Road</h2>
-                <p>4191 Kingston Road<br>Scarborough, ON M1E 2M5</p>
-                <p style="font-weight: bold;">Mon-Fri: 10am to 5pm<br>Sat: 10am to 3pm<br>Sun: Closed</p>
-                <p>Text or Phone: <a href="tel:4162820999">416-282-0999</a></p>
+    <section id="locations-hours" class="locations-hours">
+        <h1 style="font-family:'Fredoka One'; text-align:center;">VISIT US IN STORE</h1>
+        <div class="container locations-hours-flex">
+      
+          <!-- Kingston -->
+          <div class="location-card" id="kingston">
+            <h2>Kingston Road</h2>
+            <p><i class="fa fa-map-pin"></i><strong>Address:</strong> 4191 Kingston Road, Scarborough, ON M1E 2M5</p>
+            <p><i class="fa fa-phone"></i><strong>Phone:</strong> <a href="tel:4162820999">(416) 282-0999</a></p>
+            <p><i class="fa fa-envelope"></i><strong>Email:</strong> <a href="mailto:sales@poolmates.ca">sales@poolmates.ca</a></p>
+            <p><i class="fa fa-clock-o"></i> <strong>Hours:</strong><br>Mon-Fri: 10am to 5pm<br>Sat: 10am to 3pm<br>Sun: Closed</p>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46115.13961506752!2d-79.30105832803062!3d43.74802180076129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4da9c296cbad3%3A0xf3e2084c4d442bce!2sPool%20Mates%20Pool%20%26%20Hot%20Tub%20Inc.!5e0!3m2!1sen!2sca!4v1745956772472!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        
-            <div class="store-hours-box">
-                <h2>Railside Road</h2>
-                <p>73 Railside Road, Unit 12<br>Toronto, ON M3A 1B2</p>
-                <p style="font-weight: bold;">Mon-Fri: 10am to 5pm<br>Sat: 10am to 3pm<br>Sun: 10am to 2pm</p>
-                <p>Phone: <a href="tel:4167556875">416-755-6875</a> -- NOT TEXTABLE</p>
+          </div>
+      
+          <!-- Railside -->
+          <div class="location-card" id="railside">
+            <h2>Railside Road</h2>
+            <p><i class="fa fa-map-pin"></i><strong>Address:</strong> 73 Railside Road, Unit 12, North York, ON M3A 1B2</p>
+            <p><i class="fa fa-phone"></i><strong>Phone:</strong> <a href="tel:4167556875">(416) 755-6875</a> (Not Textable)</p>
+            <p><i class="fa fa-envelope"></i><strong>Email:</strong> <a href="mailto:info@poolmates.ca">info@poolmates.ca</a></p>
+            <p><i class="fa fa-clock-o"></i><strong>Hours:</strong><br>
+              Mon-Fri: 10am–5pm<br>
+              Sat: 10am–3pm<br>
+              Sun: Closed</p>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46123.99243340277!2d-79.39945615136716!3d43.736529899999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cd3e22a321b9%3A0x533c39bb946fc726!2sPool%20Mates%20Railside!5e0!3m2!1sen!2sca!4v1745956830211!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+          </div>
+      
         </div>
-    </section>
+      </section>
+      
 
     <section id="homepage-services" class="homepage-services">
         <div class="slideshow-container">
@@ -94,29 +149,6 @@
             </p>
         </div>
     </section>
-
-
-<section id="locations" class="locations">
-    <div class="container locations-flex">
-        <div class="locations-box" id="kingston">
-            <p class="address"><span style="font-weight: bold;">4191 Kingston Road</span><br>Scarborough, ON M1E 2M5</p>
-            <p class="phone">Text or Phone: <a href="tel:4162820999">(416)282-0999</a></p>
-            <p class="email">Email: <a href="mailto:sales@poolmates.ca">sales@poolmates.ca</a></p>
-            <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5763.288002299226!2d-79.19904912332684!3d43.75948894554932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4da9e82c998d3%3A0x2d455fd2119bff02!2s4191%20Kingston%20Rd%2C%20Scarborough%2C%20ON%20M1E%202M5!5e0!3m2!1sen!2sca!4v1723926091129!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-        <div class="locations-box" id="railside">
-            <p class="address"><span style="font-weight: bold;">73 Railside Road, Unit 12</span><br>Toronto, ON, M13A 1B2</p>
-            <p class="phone">Phone: <a href="tel:4167556875">(416)755-6875</a> -- NOT TEXTABLE</p>
-            <p class="email">Email: <a href="mailto:info@poolmates.ca">info@poolmates.ca</a></p>
-            <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2882.7473536179796!2d-79.32546242332772!3d43.73657504703365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cd90663fffff%3A0x62aee32cdefedd24!2s73%20Railside%20Rd%20Unit%2012%2C%20North%20York%2C%20ON%20M3A%201B2!5e0!3m2!1sen!2sca!4v1723926174418!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-    </div>
-</section>
-
 
     <footer>
         <div class="container">
