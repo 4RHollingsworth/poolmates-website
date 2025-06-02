@@ -10,90 +10,78 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="main-header">
-        <div class="container navigation-container">
-          <div class="left-cluster">
+  <header class="main-header">
+    <div class="container navigation-container">
+      <div class="left-cluster">
 
+      </div>
+      <!-- Hamburger Menu Button (Mobile Only) -->
+      <button class="hamburger" onclick="toggleMobileMenu()">
+        <i class="fa fa-bars"></i>
+      </button>
+      
+      <!-- Logo -->
+      <div class="header-logo">
+        <a href="index.html">
+          <img src="Images/PoolMatesLogo.svg" alt="Pool Mates Logo" style="max-width: 250px;">
+        </a>
+      </div>
+      
+      <!-- Navbar Menu (Toggled) -->
+      <div class="nav-left" id="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html" style="font-weight: bold;">About</a>
+    
+        <div class="dropdown">
+          <button class="dropbtn">Services <i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="services.html" style="font-weight: bold;">All Services</a>
+            <br>
+            <a href="closings.html">Closings</a>
+            <a href="equipment-repair.html">Equipment Repair</a>
+            <a href="gas-work.html">Gas Work</a>                  
+            <a href="leak-detections.html">Leak Detections</a>
+            <a href="liners.html">Liners</a>
+            <a href="openings.html">Openings</a>
+            <a href="pool-checks.html">Pool Checks</a>
+            <a href="safety-covers.html">Safety Covers</a>
+            <a href="vacuum-calls.html">Vacuum Calls</a>
+            <a href="weekly-service.html">Weekly Service</a>
           </div>
-          <!-- Hamburger Menu Button (Mobile Only) -->
-          <button class="hamburger" onclick="toggleMobileMenu()">
-            <i class="fa fa-bars"></i>
-          </button>
-          
-          <!-- Logo -->
-          <div class="header-logo">
-            <a href="index.html">
-              <img src="Images/PoolMatesLogo.svg" alt="Pool Mates Logo" style="max-width: 250px;">
+        </div>
+    
+        <a href="retail.html">Retail</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+        <a href="faqs.html">FAQ</a>
+      </div>
+      <!-- Social Media Menu -->
+        <div class="nav-right">
+            <a href="sms:+14162820999" class="cta-text-button">Text Us</a>
+
+            <a href="https://www.instagram.com/pool_mates" target="_blank" class="social-icon" aria-label="Instagram">
+                <i class="fa fa-instagram"></i>
             </a>
-          </div>
-          
-          <!-- Navbar Menu (Toggled) -->
-          <div class="nav-left" id="mobile-menu">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-        
-            <div class="dropdown">
-              <button class="dropbtn">Services <i class="fa fa-caret-down"></i></button>
-              <div class="dropdown-content">
-                <a href="services.html" style="font-weight: bold;">All Services</a>
-                <br>
-                <a href="closings.html">Closings</a>
-                <a href="equipment-repair.html">Equipment Repair</a>
-                <a href="gas-work.html">Gas Work</a>                  
-                <a href="leak-detection.html">Leak Detection</a>
-                <a href="liners.html">Liners</a>
-                <a href="openings.html">Openings</a>
-                <a href="pool-checks.html">Pool Checks</a>
-                <a href="safety-covers.html">Safety Covers</a>
-                <a href="vacuum-calls.html">Vacuum Calls</a>
-                <a href="weekly-service.html">Weekly Service</a>
-              </div>
-            </div>
-        
-            <a href="retail.html">Retail</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contact</a>
-            <a href="faqs.html">FAQ</a>
-          </div>
-          <!-- Social Media Menu -->
-            <div class="nav-right">
-                
-
-
-                <a href="https://www.instagram.com/pool_mates" target="_blank" class="social-icon" aria-label="Instagram">
-                    <i class="fa fa-instagram"></i>
-                </a>
-                <a href="https://www.facebook.com/yourhandle" target="_blank" class="social-icon" aria-label="Facebook">
-                    <i class="fa fa-facebook"></i>
-                </a>
-                <a href="https://www.twitter.com/yourhandle" target="_blank" class="social-icon" aria-label="Twitter">
-                    <i class="fa fa-twitter"></i>
-                </a>
-            </div>
+            <a href="https://www.facebook.com/PoolMatesPool" target="_blank" class="social-icon" aria-label="Facebook">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a href="https://www.twitter.com/yourhandle" target="_blank" class="social-icon" aria-label="Twitter">
+                <i class="fa fa-twitter"></i>
+            </a>
         </div>
-    </header>
+    </div>
+  </header>
 
-    <section id="about-us" class="about-us">
-        <div class="container">
-            <h2>About Us</h2>
-            <div class="about-content">
-                <div class="about-image">
-                    
-                </div>
-                <div class="about-text">
-                    
-                </div>
-            </div>
-            <div class="products-services">
-                
-            </div>
-        </div>
-    </section>
+  <section id="banner" class="banner" style="background-image: url('Images/ripples-2.jpg');">
+    <div class="container banner-container">
+      <img src="Images/Services.svg" alt="Retail" style="max-width: 500px; transform: translateY(-10%);">
+    </div>
+  </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Pool Mates. All rights reserved.</p>
-        </div>
-    </footer>
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Pool Mates. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
